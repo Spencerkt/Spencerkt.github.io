@@ -1,0 +1,12 @@
+body {
+	background-image: url('http://www.freegreatpicture.com/files/166/29775-apple-mac-os-x-lion-system-wallpaper.jpg');
+}
+
+h1 {
+	color: yellow;
+}
+
+ul.navbar {
+	position: relative;
+	color: white;
+}
