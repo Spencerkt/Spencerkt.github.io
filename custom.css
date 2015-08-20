@@ -10,3 +10,10 @@ ul.navbar {
 	position: relative;
 	color: white;
 }
+
+form {
+	color: white;
+	font-size: 18;
+	text-align: center;
+	margin: auto; 
+}
