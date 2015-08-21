@@ -3,20 +3,19 @@
 		<link rel="stylesheet" type="text/css" href="custom.css">
 		<script src="script.js"></script>	
 	</head>
-	<body>	
-		<ul class="navbar">
-			<li><a href="index.html">Home Page</a>
-			<li><a href="background.html">Background</a>
-			<li><a href="contact.html">Contact Us</a>
-		</ul>	
-		<h1>My First Site</h1>
-
-		<form>
-			Switch From:<br> 
-			<input type="text" name="switchFrom">
-			<br>
-			To:<br>
-			<input type="text" name="switchToo">
-		</form> 
+	<body>		
+		<h1>Currency Calculator</h1>
+		<form method="get" action="/search" id="search"><br>
+			<input name="currencyOne" type="text" size="60" placeholder="Switch from..."> 
+			<input name="currencyTwo" type="text" size="60" placeholder="To..."><br><br><br> 
+			<input type="submit" value="Convert" class="convert">
+		</form>
+		<div id="links">
+			<ul id="navbar">
+				<a href="index.html">FAQ</a>
+				<a href="background.html">Contact</a>
+				<a href="contact.html">Report An Issue</a>
+			</ul>
+		</div>	
 	</body>	
 </html>	

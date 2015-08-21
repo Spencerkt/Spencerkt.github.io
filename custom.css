@@ -1,19 +1,74 @@
 body {
-	background-image: url('http://www.freegreatpicture.com/files/166/29775-apple-mac-os-x-lion-system-wallpaper.jpg');
+	/*Find picture of dark map with lights of countries.*/
 }
 
 h1 {
-	color: yellow;
+	font-size: 22;
+	color: gray;
 }
 
 ul.navbar {
-	position: relative;
+	text-align: center;
 	color: white;
+	font-size: 11;
 }
 
 form {
-	color: white;
-	font-size: 18;
 	text-align: center;
-	margin: auto; 
 }
+
+#search {
+
+}
+/*Why should I use a div type??*/
+/*Lower the hight of the search bars and button*/
+#search input[type="text"] {
+	background: url(search-dark.png) no-repeat 10px 6px #444;     
+	width: 250px;
+	height: 35px;
+	font-size: 20;
+	font-style: italic;
+	font-family: Avenir;
+	font-weight: lighter;
+	padding: 4px 45px 4px 15px;
+	/*-webkit-border-radius: 20px;*/
+	border-radius: 15px;
+}
+
+.convert {
+	height: 55;
+	width: 140;
+	border-top-right-radius: 8px 8px;
+	border-bottom-right-radius: 8px 8px; 
+	border-top-left-radius: 8px 8px; 
+	border-bottom-left-radius: 8px 8px; 
+	background: lightgray;
+	border-color: gray; 
+	font-size: 18;
+	font-style: italic;
+	font-family: Avenir;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
