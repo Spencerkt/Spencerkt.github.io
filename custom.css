@@ -15,6 +15,9 @@ ul.navbar {
 
 form {
 	text-align: center;
+	position: relative;
+	top: 70px;
+	opacity: .9; 
 }
 
 #search {
